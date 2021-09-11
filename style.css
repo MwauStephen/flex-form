@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg");
+  background-size: cover;
+}
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #02b4d3c7;
+  margin: 50px 50px;
+
+  /* border: 1px solid red; */
+}
+.form-header {
+  /* background: #27b3c5; */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80%;
+  width: 100%;
+}
+.form-header img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.form-content {
+  /* align-self: center; */
+  text-align: right;
+  margin: 10px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-content {
+  margin-bottom: 10px;
+}
+.input-content input[type="text"],
+.input-content input[type="email"] {
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  border: 0;
+  outline: none;
+}
+
+/* border: 0;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 18px; */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button input[type="submit"] {
+  margin-left: 120px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 24px;
+  text-align: center;
+  outline: none;
+  border: 0;
+}
+.button input[type="submit"]:hover {
+  background: #000;
+  color: #fff;
+}
